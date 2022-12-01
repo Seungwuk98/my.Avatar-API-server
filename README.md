@@ -1,4 +1,4 @@
-# SW Maestro project - backend
+# SW Maestro project
 | 일시 | 2022.06 - 2022.11 |
 | --- | --- |
 | 팀 | 성은이가 GAN다 |
@@ -7,10 +7,10 @@
 | frontend | 은승욱 |
 | infra | 은승욱 |
 | AI | 성무열 |
+## my.Avatar - backend
 
 **framework** - <img src="https://img.shields.io/badge/Spring boot-white?style=flat-square&logo=Spring boot&logoColor=#6DB33F"/>
 
----
 
 
 
