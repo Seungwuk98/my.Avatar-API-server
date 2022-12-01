@@ -1,5 +1,4 @@
 # SW Maestro project - backend
----
 | | |
 | --- | --- |
 | 일시 | 2022.06 - 2022.11|
@@ -17,7 +16,6 @@
 
 
 ## API 
----
 base hostname : myavatar.co.kr/api
 
 
@@ -34,6 +32,5 @@ base hostname : myavatar.co.kr/api
 
 [상세 명세서](https://kindly-tumble-1e1.notion.site/API-8eb854bf5d844f6497897d31c22c8478)
 ## Class Diagram
----
 <img src="project.png" style="background:white; padding:10px">
 
