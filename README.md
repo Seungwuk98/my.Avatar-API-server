@@ -7,7 +7,7 @@
 | frontend | 은승욱 |
 | infra | 은승욱 |
 | AI | 성무열 |
-## my.Avatar - backend
+## my.Avatar - api server
 
 **framework** - <img src="https://img.shields.io/badge/Spring boot-white?style=flat-square&logo=Spring boot&logoColor=#6DB33F"/>
 
