@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ApiserverApplication<apiserver>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "avatar.apiserver.ApiserverApplication",
+            "projectName": "apiserver",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

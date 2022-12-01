@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/threeavatar?serverTimezone=Asia/Seoul
+    username: root
+    password: root
+    hikari:
+      maximum-pool-size: 100
+  servlet:
+    multipart:
+      maxFileSize: 50MB
+      maxRequestSize: 50MB
+logging:
+  file:
+    name: /logging
+  level:
+    root: INFO
+
+preprocess:
+  python-dir: C:/Users/seung/AppData/Local/Programs/Python/Python310/python.exe
+  preprocessor-dir: C:/workspace/avatar/apiserver/src/main/python/preprocesser/preprocesser.py
+  before-dir: C:/workspace/avatar/apiserver/src/main/resources/image-process/before
+  after-dir: C:/workspace/avatar/apiserver/src/main/resources/image-process/after
+
+storage:
+  file-dir: C:/workspace/avatar/apiserver/src/main/resources/storage
+  API_KEY: 64980aa1-7e09-4c5d-b173-c35f623eaa22
