@@ -55,7 +55,9 @@ public class WebStorage implements Storage {
             // TODO exception 만들기
             throw new RuntimeException(e);
         }
-        return save(file);
+        String url = save(file);
+        file.delete();
+        return url;
     }
 
     @Override
